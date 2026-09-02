@@ -4,6 +4,19 @@
 
 Given an array of prices, find the maximum profit that can be made by buying on one day and selling on a later day.
 
+## Example
+
+Input:
+prices = [7, 1, 5, 3, 6, 4]
+
+Output:
+5
+
+Explanation:
+Buy at price 1 and sell at price 6.
+
+Profit = 6 - 1 = 5
+
 ## Approach
 
 First, I tried using two loops to check every possible buy and sell pair.
@@ -22,3 +35,7 @@ Finally, I return the maximum profit.
 
 - Time Complexity: O(n)
 - Space Complexity: O(1)
+
+## Solution
+
+The solution is available in [`solution.py`](./solution.py).
